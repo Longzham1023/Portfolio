@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=Archivo:wght@300;400;600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="tooplate-split-portfolio.css">
+    <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+
+<body>
+    <header>
+        <a class="logo">LongTran</a>
+        <ul class="nav">
+            <a href="/" class="logo">Nininja</a>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-info" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class=search>
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+
+
+    <div class="split-container" id="work">
+        <div class="left-panel">
+            <div class="image-container active" data-project="0">
+                <div class="project-image"></div>
+            </div>
+            <div class="image-container" data-project="1">
+                <div class="project-image"></div>
+            </div>
+            <div class="image-container" data-project="2">
+                <div class="project-image"></div>
+            </div>
+            <div class="image-container" data-project="3">
+                <div class="project-image"></div>
+            </div>
+            <div class="image-container" data-project="4">
+                <div class="project-image"></div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <!-- Project 1 -->
+            <div class="project-details active" data-project="0">
+                <div class="project-number">01 / 03</div>
+                <h1 class="project-title">Introduction</h1>
+                <p class="project-description">
+                    Nininja is a fast-paced 2D action platformer built in Unity, centered around responsive combat and
+                    fluid movement. Players take control of a nimble ninja navigating dynamic environments, engaging in
+                    close-quarters battles against intelligent enemies. The game focuses on tight controls, impactful
+                    attacks, and iterative combat design to deliver a polished and satisfying gameplay experience.
+                </p>
+                <div class="project-info">
+                    <div class="info-item">
+                        <h4>Type</h4>
+                        <p>Indie</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Year</h4>
+                        <p>2024</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Category</h4>
+                        <p>Unity</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-details" data-project="1">
+                <div class="project-number">02 / 03</div>
+                <h1 class="project-title">Concept</h1>
+                <p class="project-description">
+                    Nininja is a 2D ninja-themed game set in an obstacle-filled village where players must fight
+                    enemies, solve simple tasks, and uncover hidden secrets. The core concept focuses on fast-paced
+                    combat using shurikens and movement tactics, combined with AI opponents that chase and retreat,
+                    creating a dynamic and strategic gameplay experience. </p>
+                <div class="project-tags">
+                    <span class="tag">UI Design</span>
+                    <span class="tag">UX Research</span>
+                    <span class="tag">Prototyping</span>
+                    <span class="tag">Game Design</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-details" data-project="2">
+                <div class="project-number">03 / 03</div>
+                <h1 class="project-title">Prototyping</h1>
+                <p class="project-description">
+                    Prototyping Nininja involves quickly building basic gameplay loops like player movement, combat
+                    mechanics (throwing shurikens, dodging), and simple enemy AI behaviors (chasing, attacking,
+                    retreating). Focus on testing core interactions and level flow early to refine controls, pacing, and
+                    challenge before adding polish or complex features. Keep iterations fast and feedback-driven.
+                </p>
+            </div>
+        </div>
+
+        <div class="project-controls">
+            <div class="progress-indicator">
+                <div class="progress-dot active" data-project="0"></div>
+                <div class="progress-dot" data-project="1"></div>
+                <div class="progress-dot" data-project="2"></div>
+            </div>
+            <div class="navigation">
+                <div class="nav-arrow" id="prevBtn">
+                    <div class="arrow arrow-left"></div>
+                </div>
+                <div class="nav-arrow" id="nextBtn">
+                    <div class="arrow arrow-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-split">
+            <div class="about-content">
+                <h2>Crafting Game Experiences</h2>
+                <p>Working on Nininja provided me with extensive experience in multiple aspects of game development. I
+                    focused on designing and implementing responsive <a>player controls</a>, ensuring that movement,
+                    dodging,
+                    and combat mechanics felt intuitive and satisfying. Creating fluid combat required careful attention
+                    to timing, animation transitions, and interaction between <a>player attack</a> and <a>enemy
+                        behaviors.</a></p>
+                <p>I also developed enemy <a>AI systems</a>, giving opponents simple yet effective behaviors such as
+                    chasing
+                    the player within a radius, retreating to heal, and patrolling designated areas. Balancing these
+                    mechanics taught me how AI design directly impacts gameplay pacing and player experience.</p>
+                <div class="about-stats">
+                </div>
+            </div>
+            <div class="about-image"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>What I Do</h2>
+                <p>Comprehensive design gameplay</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Enemy AI Behavior</h3>
+                    <p>Build rough obstacle layouts and stage designs to evaluate difficulty, platforming flow, and
+                        strategic opportunities for the player.</p>
+                    <ul class="service-list">
+                        <li>AI Design</li>
+                        <li>Animation</li>
+                        <li>Abilities</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Player Mechanics Testing</h3>
+                    <p>Quickly implement and refine core movement and combat systems (jumping, dodging, shuriken
+                        attacks) to ensure controls feel responsive and intuitive.</p>
+                    <ul class="service-list">
+                        <li>UI/UX Design</li>
+                        <li>Animation/Animator</li>
+                        <li>Prototyping</li>
+                        <li>Abilities</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>Level Flow & Challenge</h3>
+                    <p>Build rough obstacle layouts and stage designs to evaluate difficulty, platforming flow, and
+                        strategic opportunities for the player.</p>
+                    <ul class="service-list">
+                        <li>Level Design</li>
+                        <li>Content Strategy</li>
+                        <li>Environments</li>
+                        <li>Analytics & Insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <h2>Players tesing</h2>
+                <p>What people say about my game</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The combat feels tight and satisfying — every attack and dodge has real
+                        weight. Highly recommended!
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <h4>Sarah Kim</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">I love how the enemies force you to think strategically instead of just
+                        spamming attacks
+                        rates.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Michael Johnson</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">Controls are smooth and responsive; I never felt frustrated with the
+                        gameplay.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">EC</div>
+                        <div class="author-info">
+                            <h4>Emily Chen</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="tooplate-split-scripts.js"></script>
+</body>
+
+</html>

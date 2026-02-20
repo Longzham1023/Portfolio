@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">LongTran</a>
+        <ul class="nav">
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-info" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class=search>
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner-inner">
+        <div class="intro">
+            <p>
+                My name is <span>Long Tran</span>, and I am currently an undergraduate game design student. I am passionate about creating interactive experiences and exploring how games can tell meaningful stories.
+            </p>
+            <br>
+            <p><span>Unity</span> is my primary development engine, where I focus heavily on building combat systems, gameplay mechanics, and responsive player controls. I enjoy designing dynamic combat experiences that feel impactful and polished.</p>
+            <br>
+            <p>
+                My main strengths lie in <span>gameplay programming</span>, <span>combat design</span>, and creating <span>engaging interactive</span> experiences.
+            </p>
+        </div>
+        <div class="banner">
+            <div class="content active">
+                <img src="./images/Nininja.png" alt="" class="game-title">
+                <h4>
+                    <span>2025</span><i> 15+</i><span></span><span>Unity</span><span>Action</span>
+                </h4>
+                <p>
+                    This project focused on designing and developing a 2D action platformer, emphasizing responsive combat, smooth movement, and balanced level design. Using Agile development and prototyping, I iteratively implemented animations, enemy AI, combat systems, and UI/UX features while refining gameplay through playtesting. The project enhanced my technical skills, problem-solving ability, and understanding of player-centered game design from concept to completion.
+                </p>
+                <div class="button">
+                    <!-- <a href="#" class="play" onclick="toggleVideo()";><i class="fa fa-play-circle" aria-hidden="true"></i>Gameplay</a> -->
+                    <a href="#" onclick="toggleVideo()";><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                    <a href="/Details.html" class=""><i class="fa fa-plus" aria-hidden="true"></i>Details</a>
+                </div>
+            </div>
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="./images/Ninja.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/GirlNinja.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Combatninja.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="trailer">
+        <video src="./assets/Nininja.mp4" muted controls="true" autoplay="play"></video>
+        <img class="close" src="./images/close.png" alt="" onclick="toggleVideo()" ;>
+    </div>
+    <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+
+    </script>
+</body>
+
+</html>
